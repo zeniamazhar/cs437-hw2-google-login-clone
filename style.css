@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f1f3f4;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 420px;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.logo {
+  height: 30px;
+  margin-bottom: 24px;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.subtitle {
+  color: #5f6368;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1a73e8;
+}
+
+.link {
+  color: #1a73e8;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.small-text {
+  font-size: 14px;
+  color: #5f6368;
+  margin-top: 32px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+
+button {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: none;
+  color: #1a73e8;
+}
+
+.email-display {
+  color: #5f6368;
+  margin-bottom: 24px;
+}
